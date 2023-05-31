@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+body {
+    transition: background-color 0.5s;
+}
+
+.color-display {
+    margin: 200px auto;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    border-radius: 20px;
+}
+h1 {
+    font-weight: 800;
+}
+
+#btn-color {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    border-radius: 5px;
+}
+
+#btn-color:hover {
+    box-shadow: 0 0 10px;
+    border: 3px solid #00d7c3;
+}
